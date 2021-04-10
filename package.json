@@ -1,16 +1,33 @@
 {
-  "name": "node-crawler",
-  "version": "1.0.0",
-  "description": "#### Description nodejs写的爬虫定时任务",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://gitee.com/bulls-cows/node-crawler.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "node-crawler",
+    "version": "1.0.0",
+    "description": "#### Description nodejs写的爬虫定时任务",
+    "main": "index.js",
+    "scripts": {
+        "installDependencies": "npm i -g pm2 && npm i",
+        "debug": "node src/index.js",
+        "start": "pm2 start ecosystem.config.js",
+        "restart": "pm2 restart ecosystem.config.js",
+        "delete": "pm2 delete ecosystem.config.js",
+        "stop": "pm2 stop ecosystem.config.js",
+        "getShellUsedToStartProjectAfterReboot": "pm2 startup",
+        "log": "pm2 log",
+        "status": "pm2 status"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitee.com/bulls-cows/node-crawler.git"
+    },
+    "keywords": [
+        "node",
+        "crawler"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.6",
+        "mysql": "^2.18.1",
+        "node-schedule": "^2.0.0",
+        "superagent": "^6.1.0"
+    }
 }

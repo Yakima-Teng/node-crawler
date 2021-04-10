@@ -1,20 +1,21 @@
 # node-crawler
 
 #### 介绍
-nodejs写的爬虫定时任务
+nodejs写的爬虫定时任务，用于爬取gitee推荐项目。
 
 #### 软件架构
-软件架构说明
+node v14.15.5
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 下载源码：`git clone https://gitee.com/bulls-cows/node-crawler.git`
+2. 进入项目根目录，安装依赖，如果安装过pm2的话执行`npm install`，否则执行`npm run installDependencies`，
+3. 本地运行：执行`npm run debug`。
+4. 服务器上部署。执行`npm run start`启动服务，并且执行`npm run getShellUsedToStartProjectAfterReboot`来保证服务会在服务器开机后自动重启。
 
 #### 使用说明
-
+git
 1.  xxxx
 2.  xxxx
 3.  xxxx
