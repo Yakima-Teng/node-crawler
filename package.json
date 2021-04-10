@@ -1,0 +1,16 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "#### Description nodejs写的爬虫定时任务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/bulls-cows/node-crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
