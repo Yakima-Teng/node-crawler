@@ -8,8 +8,7 @@ module.exports = {
             instances: 1,
             autorestart: true,
             watch: [
-                'index.js',
-                'app.js',
+                'src',
             ],
             watch_delay: 1000,
             ignore_watch: [
