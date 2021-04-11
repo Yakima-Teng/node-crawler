@@ -2,7 +2,7 @@
 
 #### 介绍
 nodejs写的爬虫定时任务，用于爬取gitee推荐项目。
-关于本项目的详细介绍，可以参阅[用nodejs写一个简单的爬虫爬取gitee上的推荐项目](https://www.orzzone.com/node-crawler-gitee-recommend-projects.html)。
+关于本项目的详细介绍，可以参阅[《用nodejs写一个简单的爬虫爬取gitee上的推荐项目》](https://www.orzzone.com/node-crawler-gitee-recommend-projects.html)。
 
 #### 软件架构
 node v14.15.5
